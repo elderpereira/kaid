@@ -1,0 +1,18 @@
+# robots.txt para KaiD - Soluções Digitais
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://kaidst.web.app/sitemap.xml
+
+# Velocidade de rastreamento (opcional)
+Crawl-delay: 1
+
+# Bots específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
